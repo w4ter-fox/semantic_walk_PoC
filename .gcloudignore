@@ -1,0 +1,17 @@
+# Cloud Run へアップロードしないもの（.gitignore とは別。api/data/places.json は送る）
+.git/
+.gitignore
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+data/
+results/
+cache/
+*.osm
+*.pbf
+tunnel.log
+.vscode/
+poc/
+*.py.bak
